@@ -1,8 +1,6 @@
-# 🧭 Terminal Maze Pathfinding Visualizer
+# Terminal Maze Pathfinding Visualizer
 
 A simple and fun terminal-based visualizer using Python's `curses` module to demonstrate **breadth-first search (BFS)** pathfinding through a maze.
-
-You can watch the program solve a maze step by step right in your terminal window!
 
 ---
 
