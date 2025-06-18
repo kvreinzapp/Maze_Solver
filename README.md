@@ -70,4 +70,3 @@ python maze_solver.py
 maze_solver.py   # Main script with curses-based visualizer and BFS logic
 ```
 
-# Maze_Solver
