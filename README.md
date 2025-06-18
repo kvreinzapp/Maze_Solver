@@ -2,7 +2,6 @@
 
 A simple and fun terminal-based visualizer using Python's `curses` module to demonstrate **breadth-first search (BFS)** pathfinding through a maze.
 
----
 
 ## 🎯 Features
 
@@ -11,7 +10,6 @@ A simple and fun terminal-based visualizer using Python's `curses` module to dem
 - 🎨 Visualizes search progress using live animation
 - 🧠 Educational tool for learning pathfinding and `curses`
 
----
 
 ## 🛠️ How to Run
 
@@ -26,7 +24,6 @@ A simple and fun terminal-based visualizer using Python's `curses` module to dem
 python maze_solver.py
 ````
 
----
 
 ## 🎨 Controls & Symbols
 
@@ -35,16 +32,6 @@ python maze_solver.py
 * `#` — Wall
 * `X` (red on screen) — Current path being explored
 
----
-
-## 🧠 How It Works
-
-* Finds the starting position `"O"` in the maze
-* Uses a **queue** to explore all possible paths (BFS)
-* Updates the terminal on each step using `curses`
-* Stops when the end `"X"` is reached and shows the found path
-
----
 
 ## 🗺️ Maze Example
 
@@ -58,13 +45,5 @@ python maze_solver.py
 #   #   # ##### #
 #               #
 # # # # # # # X #
-```
-
----
-
-## 🧩 File Overview
-
-```
-maze_solver.py   # Main script with curses-based visualizer and BFS logic
 ```
 
